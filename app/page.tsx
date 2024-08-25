@@ -6,8 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
+          Get started by visiting one of our sites below&nbsp;
         </p>
         <div>
           <a
@@ -17,11 +16,11 @@ export default function Home() {
           >
             By{" "}
             <Image
-              src="/vercel.svg"
+              src="/pure2.png"
               alt="Vercel Logo"
               className={styles.vercelLogo}
-              width={100}
-              height={24}
+              width={50}
+              height={50}
               priority
             />
           </a>
@@ -29,51 +28,44 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+        Global Environmental Protection Services
       </div>
 
       <div className={styles.grid}>
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://karbonbasar.harmonia.eco"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Docs <span>-&gt;</span>
+            Karbon Basar <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>Carbon offset marketplace with collectibles</p>
         </a>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://priorite.harmonia.eco"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Learn <span>-&gt;</span>
+            Priorite <span>-&gt;</span>
           </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+          <p>Collaborative developmental priorities list</p>
         </a>
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://tarif.harmonia.eco"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Templates <span>-&gt;</span>
+            Tarif <span>-&gt;</span>
           </h2>
-          <p>Explore starter templates for Next.js.</p>
+          <p>Opinionated time and carbon pricing helper for daily decision-making</p>
         </a>
 
         <a
